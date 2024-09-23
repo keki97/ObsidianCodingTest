@@ -1,0 +1,22 @@
+{
+  "name": "obsidiancodingtest",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "targets": {
+    "main": {
+      "distDir": "./dist",
+      "source": "src/index.js"
+    }
+  },
+  "scripts": {
+    "start": "parcel src/product.html",
+    "build": "parcel build src/product.html"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "parcel": "^2.12.0"
+  }
+}
